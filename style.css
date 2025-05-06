@@ -257,6 +257,21 @@ nav .menu > li > a {
   border-radius: 15px;
 }
 
+.youtube-wrapper-vertical {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.promo-video-vertical {
+  width: 300px;
+  height: 533px;
+  border-radius: 16px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  border: none;
+}
+
 @media (max-width: 768px) {
   .site-header {
     flex-direction: column;
@@ -295,5 +310,10 @@ nav .menu > li > a {
 
   .modules-section {
     padding: 20px;
+  }
+
+  .promo-video-vertical {
+    width: 90%;
+    height: calc(90vw * 16 / 9);
   }
 }
